@@ -7,6 +7,7 @@
 a {
     text-decoration: none;
     color: black;
+    transition: 0.5s;
 }
 
 .container {
@@ -62,6 +63,10 @@ ul>li:last-child{
 .nav-list:hover {
     color: #2196f3;
 
+}
+
+a:hover {
+    color: #2196f3;
 }
 
 .email {
@@ -227,7 +232,7 @@ ul>li:last-child{
 .people {
     display: flex;
     justify-content: space-between;
-    margin-left: 120px;
+    margin-left: 140px;
     margin-right: 200px;
 }
 
@@ -241,7 +246,7 @@ ul>li:last-child{
 }
 
 .person:nth-last-child(1) {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 
@@ -377,4 +382,3 @@ footer {
 .tel1:hover {
     color: #2196f3;
 }
-
